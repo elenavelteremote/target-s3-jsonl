@@ -1,4 +1,7 @@
 # Change Log
+## [1.2.2](https://github.com/elenavelteremote/target-s3-jsonl/tree/1.2.1) (2022-08-19)
+
+# Change Log
 ## [1.2.1](https://github.com/ome9ax/target-s3-jsonl/tree/1.2.1) (2022-07-13)
 
 ### What's Changed

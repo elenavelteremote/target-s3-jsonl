@@ -158,6 +158,7 @@ def persist_lines(messages, config, save_records=save_jsonl_file):
             if 'stream' not in o:
                 raise Exception("Line is missing required key 'stream': {}".format(message))
             stream = o['stream']
+            schemas[stream] = o['schema']
 
             if config.get('add_metadata_columns'):
                 schemas[stream] = add_metadata_columns_to_schema(o)
